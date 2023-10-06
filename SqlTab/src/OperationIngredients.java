@@ -61,7 +61,7 @@ public class OperationIngredients {
                 System.out.println("Nome: " + ingredientName + ", Prezzo: " + price + ", Calorie: " + calories + ", Senza glutine: " + glutenFree);
             }
 
-
+            connection.setAutoCommit(true);
             connection.close();
 
         } catch (SQLException e) {

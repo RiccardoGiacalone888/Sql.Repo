@@ -61,6 +61,7 @@ public class VariousWhere {
             System.out.println("\nMeals with price > €20 or calories < 800:");
             printResultSet(highPriceLowCaloriesResult);
 
+            connection.setAutoCommit(true);
 
         } catch (SQLException e) {
             e.printStackTrace();
