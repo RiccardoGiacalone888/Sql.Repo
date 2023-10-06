@@ -13,7 +13,8 @@ public class CreateTableIngredients {
                     "CREATE TABLE Food (" +
                             "NAME VARCHAR(255)," +
                             "PRICE DOUBLE," +
-                            "CALORIES INT);";
+                            "CALORIES INT," +
+                            "GLUTEN_FREE BOOLEAN);";
             statement.execute(createTableSQL);
             System.out.println("Tabella Food Creata.");
         } catch (SQLException e) {
