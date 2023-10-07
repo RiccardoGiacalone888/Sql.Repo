@@ -9,7 +9,7 @@ public class MealsAndOrders {
         ResultSet resultSet = null;
 
         try {
-            // Connessione al tuo database
+
             connection = DriverManager.getConnection(url, user, password);
 
             // Numero di ordini per ogni pasto
